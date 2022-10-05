@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class Friend {
+public class Friend {
+    public Friend() {}
+
 }
