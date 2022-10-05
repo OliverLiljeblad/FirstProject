@@ -5,9 +5,10 @@ public class Main {
 
         System.out.println("Hello world!");
         System.out.println();
-        Scanner myScan= new Scanner(System.in);
+        Scanner myScan = new Scanner(System.in);
         System.out.println("write a number");
-        int hej= myScan.nextInt();
+        int hej = myScan.nextInt();
+
         String hopp = myScan.next();
     }
 }
