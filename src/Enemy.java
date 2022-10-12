@@ -1,28 +1,24 @@
-public class Friend {
+public class Enemy {
     //Instansvariabler
     //Instance variables
-    private String name = "A friend";
+    private String name = "A Enemy";
     private int hp = 100;
 
-    // Constructors
-    public Friend() {
+    public Enemy() {
 
     }
 
-    public Friend(String name) {
+    public Enemy(String name) {
         this.name = name;
     }
 
-    public Friend(String name, boolean isFriend) {
+    public Enemy(String name, boolean isFriend) {
         this.name = name;
     }
 
-    //Methods
     public void hit(int damage) {
         this.hp = this.hp - damage;
-
     }
-
 
     // Getters Setters
     public int getHp() {
@@ -40,5 +36,4 @@ public class Friend {
     public void setName(String name) {
         this.name = name;
     }
-
 }
